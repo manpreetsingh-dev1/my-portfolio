@@ -13,7 +13,7 @@ function Projects() {
           description="These concept projects highlight how I approach layout systems, full-stack structure, and production-minded UI design."
         />
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-2">
           {projects.map((project, index) => (
             <Reveal key={project.title} delay={index * 0.08} className="h-full">
               <Motion.article
