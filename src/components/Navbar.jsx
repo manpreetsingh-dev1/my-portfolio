@@ -112,11 +112,11 @@ function Navbar() {
             transition={{ duration: 0.2 }}
             className="theme-nav mx-auto mt-3 max-w-7xl rounded-3xl p-4 shadow-2xl backdrop-blur-xl md:hidden"
           >
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 md:hidden">
               <div className="mb-2 flex items-center justify-between gap-3">
                 <ThemeToggle />
                 <a
-                  href={resumeFile}
+                  href="src/assets/Manpreet Singh Resume !.pdf"
                   download
                   onClick={() => setIsOpen(false)}
                   className="theme-secondary-button rounded-full px-4 py-2 text-sm font-medium transition"
