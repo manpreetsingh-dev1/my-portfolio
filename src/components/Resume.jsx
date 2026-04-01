@@ -1,4 +1,4 @@
-import { resumeFile } from "../assets/portfolioData";
+import  resumeFile from "../assets/Manpreet Singh Resume !.pdf";
 import Reveal from "./Reveal";
 
 function Resume() {

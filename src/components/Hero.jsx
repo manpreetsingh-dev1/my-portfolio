@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { motion as Motion } from "framer-motion";
-import { heroMetrics, profileImage, resumeFile } from "../assets/portfolioData";
+import { heroMetrics, profileImage } from "../assets/portfolioData";
 
 const typingWords = ["developer-focused", "responsive", "scalable", "animated"];
 
@@ -88,7 +88,7 @@ function Hero() {
               View Projects
             </a>
             <a
-              href={resumeFile}
+             href="src/assets/Manpreet Singh Resume !.pdf"
               download
               className="theme-secondary-button inline-flex items-center justify-center rounded-full px-7 py-3.5 text-sm font-semibold transition duration-300 hover:-translate-y-0.5"
             >

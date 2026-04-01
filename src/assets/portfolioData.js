@@ -55,8 +55,8 @@ export const projects = [
     description:
       "A modern MERN e-commerce platform with product discovery, cart flows, secure auth with OTP Verifications, and admin inventory management.",
     techStack: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
-    liveUrl: "https://example.com/storefront-pro",
-    githubUrl: "https://github.com/example/storefront-pro",
+    liveUrl: "https://jk-luxe-ecommerce.vercel.app/",
+    githubUrl: "https://github.com/manpreetsingh-dev1/jk-luxe-ecommerce",
     image: projectCommerce,
   },
   {
@@ -64,23 +64,22 @@ export const projects = [
     description:
       "A Resume Builder Platform Where User can Build Their Resume With AI Enhancing And With Profile Image with RemoveBackground with AI .",
     techStack: ["React", "Lucide-React","ImageKit", "Express", "MongoDB"],
-    liveUrl: "https://example.com/taskflow-dashboard",
-    githubUrl: "https://github.com/example/taskflow-dashboard",
+    liveUrl: "https://resume-builder-xi-dun-86.vercel.app/",
+    githubUrl: "https://github.com/manpreetsingh-dev1/resume-builder",
     image: projectTaskFlow,
   },
   ];
 
 export const socialLinks = [
-  { label: "GitHub", href: "https://github.com/manpreet-singh-dev" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/manpreet-singh-dev" },
+  { label: "GitHub", href: "https://github.com/manpreetsingh-dev1" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/manpreet-singh-496688331" },
 ];
 
 export const contactDetails = [
-  { label: "Email", value: "manpreetvirdi271@email.com" },
+  { label: "Email", value: "manpreetsinghv01@email.com" },
   { label: "Location", value: "Punjab, India" },
   { label: "Availability", value: "Open to internships and junior developer roles" },
 ];
 
 export const whatsappNumber = "918196937984";
 export const profileImage = profileIllustration;
-export const resumeFile = "/manpreet-singh-resume.pdf";
