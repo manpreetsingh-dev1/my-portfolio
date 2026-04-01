@@ -1,6 +1,6 @@
 import profileIllustration from "./me.jpg";
-import projectCommerce from "./project-commerce.svg";
-import projectTaskFlow from "./project-taskflow.svg";
+import projectCommerce from "./project-commerce.png";
+import projectTaskFlow from "./project-taskflow.png";
 
 export const navLinks = [
   { label: "Home", href: "#home" },
