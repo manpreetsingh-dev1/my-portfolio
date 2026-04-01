@@ -58,8 +58,7 @@ function Hero() {
         >
           <div className="theme-status-pill inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm shadow-[0_0_0_1px_rgba(34,211,238,0.06)]">
             <span className="theme-status-dot h-2 w-2 rounded-full" />
-            Available for Building Scalable Web Apps & Collaborating on MERN
-            Projects
+            Available for Building Scalable Web Apps & Collaborating on MERN Projects
           </div>
 
           <h1 className="theme-text-primary mt-8 max-w-4xl text-5xl font-semibold tracking-tight sm:text-6xl lg:text-7xl">
@@ -71,17 +70,14 @@ function Hero() {
 
           <p className="theme-text-secondary mt-8 max-w-2xl text-lg leading-8 sm:text-xl">
             I build modern web applications with a{" "}
-            <span className="theme-text-primary">
-              clean, minimal, and {displayedText}
-            </span>
+            <span className="theme-text-primary">clean, minimal, and {displayedText}</span>
             <span className="theme-caret ml-1 inline-block h-6 w-px translate-y-1 animate-pulse" />
             feel.
           </p>
 
           <p className="theme-text-muted mt-4 max-w-2xl text-base leading-7">
-            Fresher developer focused on crafting polished interfaces, reliable
-            APIs, and user-first digital experiences that look sharp on every
-            screen.
+            Fresher developer focused on crafting polished interfaces, reliable APIs, and user-first
+            digital experiences that look sharp on every screen.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -109,9 +105,7 @@ function Hero() {
                 transition={{ duration: 0.5, delay: 0.15 * index }}
                 className="glass-panel rounded-3xl p-5"
               >
-                <p className="theme-text-primary text-2xl font-semibold">
-                  {item.value}
-                </p>
+                <p className="theme-text-primary text-2xl font-semibold">{item.value}</p>
                 <p className="theme-text-muted mt-2 text-sm">{item.label}</p>
               </Motion.div>
             ))}
@@ -132,24 +126,16 @@ function Hero() {
               <img
                 src={profileImage}
                 alt="Stylized illustration for Manpreet Singh"
-                className="w-40 h-40 rounded-full object-cover border-4 border-blue-500 shadow-lg transition-transform duration-300 hover:scale-105"
+                className="theme-image-frame w-full rounded-[1.6rem]"
               />
 
               <Motion.div
                 animate={{ y: [0, -10, 0] }}
-                transition={{
-                  repeat: Number.POSITIVE_INFINITY,
-                  duration: 5,
-                  ease: "easeInOut",
-                }}
+                transition={{ repeat: Number.POSITIVE_INFINITY, duration: 5, ease: "easeInOut" }}
                 className="theme-floating-card absolute bottom-6 left-6 rounded-2xl px-4 py-3 backdrop-blur-lg"
               >
-                <p className="theme-accent-text text-xs uppercase tracking-[0.3em]">
-                  Current Focus
-                </p>
-                <p className="theme-text-primary mt-2 text-sm">
-                  React UI, REST APIs, and portfolio-ready products
-                </p>
+                <p className="theme-accent-text text-xs uppercase tracking-[0.3em]">Current Focus</p>
+                <p className="theme-text-primary mt-2 text-sm">React UI, REST APIs, and portfolio-ready products</p>
               </Motion.div>
             </div>
           </div>
