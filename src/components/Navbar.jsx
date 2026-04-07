@@ -87,7 +87,7 @@ function Navbar() {
         <button
           type="button"
           onClick={() => setIsOpen((prev) => !prev)}
-          className="theme-icon-button flex h-11 w-11 items-center justify-center rounded-full md:hidden"
+          className="theme-icon-button flex h-11 w-11 items-center justify-center rounded-full md:hidden!"
           aria-expanded={isOpen}
           aria-label="Toggle navigation menu"
         >
