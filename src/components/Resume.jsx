@@ -1,4 +1,3 @@
-import  resumeFile from "../assets/MANPREET SINGH RESUME .pdf";
 import Reveal from "./Reveal";
 
 function Resume() {
@@ -7,7 +6,7 @@ function Resume() {
       <div className="mx-auto max-w-5xl">
         <Reveal className="glass-panel overflow-hidden rounded-[2.25rem] p-8 sm:p-10">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
-            
+
             <div>
               <p className="theme-accent-text text-sm uppercase tracking-[0.32em]">
                 Resume
@@ -25,10 +24,10 @@ function Resume() {
             </div>
 
             <div className="flex flex-col gap-4 sm:flex-row lg:flex-col">
-              
+
               {/* ✅ VIEW BUTTON */}
               <a
-                href={resumeFile}
+                href="#/resume"
                 className="theme-primary-button inline-flex items-center justify-center rounded-full px-7 py-3.5 text-sm font-semibold transition hover:-translate-y-0.5"
               >
                 View Resume
