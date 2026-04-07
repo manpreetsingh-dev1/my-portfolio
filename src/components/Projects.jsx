@@ -25,7 +25,7 @@ function Projects() {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="h-52 w-full object-cover transition duration-500 hover:scale-105"
+                    className=" w-full object-cover object-top transition duration-500 hover:scale-105"
                   />
                 </div>
 
