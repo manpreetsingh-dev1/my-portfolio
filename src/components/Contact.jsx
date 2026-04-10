@@ -130,7 +130,7 @@ function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   className="theme-input w-full rounded-2xl px-4 py-3 outline-none transition"
-                  placeholder="Tell me about your project or opportunity"
+                  placeholder="Briefly describe your requirement, project idea, or job role..."
                 />
               </div>
 

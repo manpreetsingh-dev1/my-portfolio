@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion as Motion } from "framer-motion";
 import { navLinks } from "../assets/portfolioData";
 import ThemeToggle from "./ThemeToggle";
+import resumeFile from "../assets/MANPREET SINGH RESUME.pdf";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -76,7 +77,7 @@ function Navbar() {
         <div className="hidden items-center gap-3 md:flex">
           <ThemeToggle />
           <a
-            href="#/resume"
+            href={resumeFile}
             className="theme-secondary-button rounded-full px-4 py-2 text-sm font-medium transition"
           >
             View Resume

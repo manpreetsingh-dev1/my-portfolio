@@ -77,9 +77,9 @@ export const socialLinks = [
 
 export const contactDetails = [
   { label: "Email", value: "manpreetsinghv01@email.com" },
-  { label: "Location", value: "Punjab, India" },
-  { label: "Availability", value: "Open to internships and junior developer roles" },
+  { label: "Location", value: "Panjab 140412 , India" },
+  { label: "Availability", value: "Open to Internships and Junior Developer roles" },
 ];
 
-export const whatsappNumber = "918196937984";
+export const whatsappNumber = "+918196937984";
 export const profileImage = profileIllustration;

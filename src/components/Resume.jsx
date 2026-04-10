@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-
+import resumeFile from "../assets/MANPREET SINGH RESUME.pdf";
 function Resume() {
   return (
     <section id="resume" className="px-4 py-24 sm:px-6 lg:px-8">
@@ -27,7 +27,7 @@ function Resume() {
 
               {/* ✅ VIEW BUTTON */}
               <a
-                href="#/resume"
+                href={resumeFile}
                 className="theme-primary-button inline-flex items-center justify-center rounded-full px-7 py-3.5 text-sm font-semibold transition hover:-translate-y-0.5"
               >
                 View Resume

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import resumeFile from "../assets/MANPREET SINGH RESUME .pdf";
+import resumeFile from "../assets/MANPREET SINGH RESUME.pdf";
 
 function ResumePage() {
   const [isLoading, setIsLoading] = useState(true);
