@@ -19,17 +19,17 @@ function Projects() {
               <Motion.article
                 whileHover={{ y: -8 }}
                 transition={{ duration: 0.25 }}
-                className="project-card h-full overflow-hidden rounded-[2rem]"
+                className="project-card flex h-full flex-col overflow-hidden rounded-[2rem]"
               >
                 <div className="overflow-hidden border-b border-white/10">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className=" w-full object-cover object-top transition duration-500 hover:scale-105"
+                    className="h-52 w-full object-cover object-top transition duration-500 hover:scale-105"
                   />
                 </div>
 
-                <div className="flex h-[calc(100%-13rem)] flex-col p-6">
+                <div className="flex flex-1 flex-col p-6">
                   <h3 className="theme-text-primary text-2xl font-semibold">{project.title}</h3>
                   <p className="theme-text-secondary mt-4 text-sm leading-7">{project.description}</p>
 
