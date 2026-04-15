@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-import resumeFile from "../assets/MANPREET SINGH RESUME.pdf";
+import resumeFile from "../assets/Manpreet Singh Resume.pdf";
 function Resume() {
   return (
     <section id="resume" className="px-4 py-24 sm:px-6 lg:px-8">

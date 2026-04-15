@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion as Motion } from "framer-motion";
 import { navLinks } from "../assets/portfolioData";
 import ThemeToggle from "./ThemeToggle";
-import resumeFile from "../assets/MANPREET SINGH RESUME.pdf";
+import resumeFile from "../assets/Manpreet Singh Resume.pdf";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
